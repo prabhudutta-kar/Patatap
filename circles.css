@@ -1,0 +1,77 @@
+canvas {
+	width: 100%;
+	height: 78%;
+	background: #fffcc3;
+    margin: auto;
+}
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.header {
+	border-bottom: 2px solid #888888;
+	width: 103%;
+	/*height: 100%;*/
+	margin: 0;
+	background: #ffe259;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #ffe259);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #ffe259); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#title {
+	font-family: 'Fascinate Inline', cursive;
+	font-size: 75px;
+	color: #ffffff;
+	text-align: center;
+	height: 80px;
+	margin: 0 auto;
+	/*padding-top: 5px;*/
+	padding-bottom: 0px;
+	display: inline-block;
+	width:85%;
+    float: right;
+  transform: translateX(-8%) !important
+	/*text-decoration: underline;
+  	-webkit-text-decoration-color: salmon;
+  	text-decoration-color: salmon;
+  	-webkit-text-decoration-style: wavy;
+  	text-decoration-style: wavy;*/
+}
+
+#name {
+	text-align: center;
+	color: white;
+    margin: auto;
+/*	padding-right: 38px;*/
+/*	padding-top: 10px;*/
+	font-family: 'Pacifico', cursive;
+	word-spacing: 5px;
+	font-size: 17px;
+/*	float: right;*/
+}
+
+.tag {
+	color: white;
+	text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background: black;
+    margin: auto;
+    height: 10px;
+    padding: 10px;
+}
+
+.text-muted {
+    color:antiquewhite;
+    word-spacing: 3px;
+}
+
+.fas.fa-drum {
+    padding-top: 10px;
+    padding-left: 10px;
+}
